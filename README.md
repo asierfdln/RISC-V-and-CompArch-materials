@@ -21,6 +21,6 @@ Here's an outline of what each file contains (all source papers are included in 
 
   - **_Improving Instruction Caches_**: both the final presentation and report covering four seminal papers (see source material folder) about compiler-level techniques and optimizations to mitigate aliasing conflicts in direct-mapped caches.
 
-  - **_Memory Dependence Prediction Using Store Sets_**: a comprehensive, detailed explanation of how to deal with memory-order violations between stores and loads as a result of load speculation, as put forward in [Chrysos and Emer](https://ieeexplore.ieee.org/document/694770)'s paper.
+  - **_Memory Dependence Prediction Using Store Sets_**: a comprehensive, detailed explanation of how to deal with memory-order violations between stores and loads as a result of load speculation, as put forward in [Chrysos and Emer](https://ieeexplore.ieee.org/document/694770)'s paper. This presentation was the final project of a series of lectures and seminars imparted by Prof. Yale Patt himself at UPC.
 
   - **_"DRAMsim3's memory controller" and "Tracking contention in memory controllers"_**: two presentations covering the basics of DRAMsim3's memory controller (from front-end transaction management and write-batching to generation of DRAM commands and enforcement of JEDEC timing constraints) and basics ideas on contention-tracking between DRAM commands within the MC. The last presentation outlines one of the initial, basic ideas of multicore contention-tracking in DRAM for my master's final thesis project.
