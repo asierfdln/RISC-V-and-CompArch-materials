@@ -19,7 +19,7 @@ Here's an outline of what each file contains (all source papers are included in 
 
   - **_Energy-efficient IQ archs.pdf_**: a presentation on [two](https://ieeexplore.ieee.org/document/9923800) [different](https://ieeexplore.ieee.org/document/7011406) approaches aiming to mitigate the high energy consumption of out-of-order issue queues: one based on using a series of parallel, in-order issue queues for depence-chain steering and the other exploiting ready-at-dispatch instructions by executing them in an intermediate execution stage placed before traditional out-of-order stages, avoiding the usage of the OoO IQ when applicable.
 
-  - **_Improving Instruction Caches_**: a presentation covering four seminal papers (see source material folder) about compiler-level techniques and optimizations to mitigate aliasing conflicts in direct-mapped caches.
+  - **_Improving Instruction Caches_**: both the final presentation and report covering four seminal papers (see source material folder) about compiler-level techniques and optimizations to mitigate aliasing conflicts in direct-mapped caches.
 
   - **_Memory Dependence Prediction Using Store Sets_**: a comprehensive, detailed explanation of how to deal with memory-order violations between stores and loads as a result of load speculation, as put forward in [Chrysos and Emer](https://ieeexplore.ieee.org/document/694770)'s paper.
 
